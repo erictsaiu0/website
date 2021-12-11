@@ -1,6 +1,10 @@
-@import url("content.css");
-@import url("modal.css");
-@import url("gallery.css");
+@import url("Home_css/content.css");
+@import url("Home_css/modal.css");
+@import url("Home_css/gallery.css");
+@import url("Home_css/Curator.css");
+@import url("Home_css/Special_thanks.css");
+@import url("Home_css/Artist.css");
+@import url(Home_css/Traffic.css);
 
 :root {
   /* --darkgray: #212329; */

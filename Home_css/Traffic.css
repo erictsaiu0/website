@@ -1,0 +1,154 @@
+:root {
+  --darkgray: #212329;
+  --brightred: #f9423d;
+  --white: #fff;
+  --lightred: #f9433dcc;
+  --lightblue: #337af1;
+}
+
+.Traffic {
+  background-color: var(--darkgray);
+}
+
+.Traffic h1 {
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 3rem;
+}
+
+.Traffic-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-self: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 60vh;
+  background-color: var(--darkgray);
+}
+
+.Traffic-content {
+  justify-self: start;
+  margin-left: 20px;
+  color: var(--white);
+  width: 80%;
+}
+
+.Traffic-content h1 {
+  font-size: 1.5rem;
+}
+
+.Traffic-content h2 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.Traffic-content p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+/* 
+  .main-btn {
+    font-size: 1rem;
+    background-color: var(--brightred);
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    color: var(--white);
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+  }
+  
+  .main-btn a {
+    position: relative;
+    z-index: 2;
+    color: var(--white);
+    text-decoration: none;
+  }
+  
+  .main-btn:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 0;
+    left: 0;
+    height: 100%;
+    transition: all.35s;
+    border-radius: 4px;
+    background-color: var(--lightblue);
+  }
+  
+  .main-btn:hover {
+    color: var(--white);
+  }
+  .main-btn:hover:after {
+    width: 100%;
+  } */
+
+#Traffic-img {
+  height: 80%;
+  width: 80%;
+}
+
+.Traffic-img-container {
+  text-align: center;
+}
+
+/* mobile responses */
+@media screen and (max-width: 768px) {
+  .Traffic-container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-self: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 60vh;
+    background-color: var(--darkgray);
+  }
+
+  .Traffic-content {
+    justify-self: center;
+    color: var(--white);
+    width: 80%;
+    margin: 0;
+  }
+
+  .Traffic-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .Traffic-content p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+
+  #Traffic-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Traffic-content {
+    text-align: center;
+  }
+
+  .Traffic-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .Traffic-content p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .Traffic-btn {
+    padding: 12px 36px;
+    margin-top: 2.5rem;
+  }
+}
