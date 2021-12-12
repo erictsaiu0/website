@@ -4,13 +4,16 @@
 @import url("Home_css/Curator.css");
 @import url("Home_css/Special_thanks.css");
 @import url("Home_css/Artist.css");
-@import url(Home_css/Traffic.css);
+@import url("Home_css/Traffic.css");
 
 :root {
   /* --darkgray: #212329; */
   --darkgray: #060201;
-  --brightred: #f9423d;
+  --brightred: #ff053a;
   --white: #fff;
+  --brown: #662a0e;
+  --orange: #e96831;
+  --lime: #bcf7da;
   --lightred: #f9433dcc;
   --lightblue: #337af1;
 }
