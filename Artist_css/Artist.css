@@ -1,0 +1,147 @@
+:root {
+  --darkgray: #212329;
+  --brightred: #f9423d;
+  --white: #fff;
+  --lightred: #f9433dcc;
+  --lightblue: #337af1;
+}
+
+.Artist {
+  background-color: var(--darkgray);
+}
+
+.Artist-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-self: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 75vh;
+  background-color: var(--darkgray);
+}
+
+.Artist-content {
+  justify-self: start;
+  margin-left: 20px;
+  color: var(--white);
+  width: 80%;
+}
+
+.Artist-content h1 {
+  font-size: 3rem;
+}
+
+.Artist-content h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.Artist-content p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+/* 
+    .main-btn {
+      font-size: 1rem;
+      background-color: var(--brightred);
+      padding: 8px 20px;
+      border: none;
+      border-radius: 4px;
+      color: var(--white);
+      margin-top: 2rem;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.35s;
+      outline: none;
+    }
+    
+    .main-btn a {
+      position: relative;
+      z-index: 2;
+      color: var(--white);
+      text-decoration: none;
+    }
+    
+    .main-btn:after {
+      position: absolute;
+      content: "";
+      top: 0;
+      width: 0;
+      left: 0;
+      height: 100%;
+      transition: all.35s;
+      border-radius: 4px;
+      background-color: var(--lightblue);
+    }
+    
+    .main-btn:hover {
+      color: var(--white);
+    }
+    .main-btn:hover:after {
+      width: 100%;
+    } */
+
+#Artist-img {
+  height: 80%;
+  width: 80%;
+}
+
+.Artist-img-container {
+  text-align: center;
+}
+
+/* mobile responses */
+@media screen and (max-width: 768px) {
+  .Artist-container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-self: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 80vh;
+    background-color: var(--darkgray);
+  }
+
+  .Artist-content {
+    justify-self: center;
+    color: var(--white);
+    width: 80%;
+    margin: 0;
+  }
+
+  .Artist-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .Artist-content p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+
+  #Artist-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Artist-content {
+    text-align: center;
+  }
+
+  .Artist-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .Artist-content p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .Artist-btn {
+    padding: 12px 36px;
+    margin-top: 2.5rem;
+  }
+}

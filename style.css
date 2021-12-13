@@ -6,6 +6,9 @@
 @import url("Home_css/Artist.css");
 @import url("Home_css/Traffic.css");
 
+@import url("Artist_css/content.css");
+@import url("Artist_css/Artist.css");
+
 :root {
   /* --darkgray: #212329; */
   --darkgray: #060201;

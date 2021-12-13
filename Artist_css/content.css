@@ -1,0 +1,162 @@
+:root {
+  --darkgray: #212329;
+  --brightred: #ff053a;
+  --white: #fff;
+  --lightred: #f9433dcc;
+  --lightblue: #337af1;
+}
+
+.map {
+  background-color: var(--darkgray);
+}
+
+.map-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-self: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 90vh;
+  background-color: var(--darkgray);
+}
+
+.map-content {
+  justify-self: start;
+  margin-left: 20px;
+  color: var(--white);
+  width: 80%;
+}
+
+.map-content h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.map-content h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.map-content h3 {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.map-content p {
+  color: var(--white);
+  margin-top: 0.7rem;
+  font-size: 1.4rem;
+}
+
+.Artist-links {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.Artist-links:hover {
+  color: var(--brightred);
+  transition: all 0.2s ease-out;
+}
+
+#map-img {
+  height: 80%;
+  width: 80%;
+}
+
+.map-img-container {
+  text-align: center;
+}
+
+.cocreation {
+  display: grid;
+  height: 70vh;
+  position: relative;
+  background-color: var(--darkgray);
+  align-items: center;
+  justify-self: center;
+}
+
+#cocreation-main-theme-img {
+  display: block;
+  margin: auto;
+  max-width: 60%;
+  z-index: 0;
+}
+
+.cocreation-description {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.cocreation-description h1 {
+  font-size: 2.5rem;
+  color: var(--white);
+  text-shadow: var(--darkgray) 0.1em 0.1em 0.3em;
+}
+
+.cocreation-description h2 {
+  font-size: 1rem;
+  color: var(--white);
+  text-shadow: var(--darkgray) 0.1em 0.1em 0.3em;
+}
+
+/* mobile responses */
+@media screen and (max-width: 768px) {
+  .map-container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-self: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: var(--darkgray);
+  }
+
+  .map-content {
+    justify-self: center;
+    color: var(--white);
+    width: 80%;
+    margin: 0;
+  }
+
+  .map-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .map-content p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+
+  #map-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .map-content {
+    text-align: center;
+  }
+
+  .map-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .map-content p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .map-btn {
+    padding: 12px 36px;
+    margin-top: 2.5rem;
+  }
+}
