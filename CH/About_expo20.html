@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../style.css">
+    <title>《平行拉鋸》| 二十聯展</title>
+</head>
+<body>
+    <div class="nav-container">
+        <nav class="navbar">
+            <img src="../logo/logo.jpg" id="navbar-logo"></h1>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="Individual_artist.html" class="nav-links">個人展區</a></li>
+                <li><a href="Co-creation.html" class="nav-links">共同創作</a></li>
+                <li><a href="About_expo20.html" class="nav-links">二十聯展</a></li>
+                <li><a href="..\EN\Home.html" class="nav-links">中文/EN</a></li>
+                <li><a href="Home.html" class="nav-links">首頁</a></li>
+                <!-- <li><a href="#" class="nav-links nav-links-btn">首頁</a></li> -->
+            </ul>
+        </nav>
+    </div>
+
+    
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="../about_expo20_img/top.JPG" class="img">
+      <!-- <div class="text">Caption</div> -->
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="../about_expo20_img/About02.JPG" class="img">
+      <!-- <div class="text">Caption</div> -->
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="../about_expo20_img/About03.JPG" class="img">
+      <!-- <div class="text">Caption</div> -->
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../about_expo20_img/About04.JPG" class="img">
+        <!-- <div class="text">Caption</div> -->
+      </div>
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../about_expo20_img/About05.JPG" class="img">
+        <!-- <div class="text">Caption</div> -->
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../about_expo20_img/About06.JPG" class="img">
+        <!-- <div class="text">Caption</div> -->
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../about_expo20_img/About07.JPG" class="img">
+        <!-- <div class="text">Caption</div> -->
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../about_expo20_img/About08.JPG" class="img">
+        <!-- <div class="text">Caption</div> -->
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../about_expo20_img/About09.JPG" class="img">
+        <!-- <div class="text">Caption</div> -->
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../about_expo20_img/About10.JPG" class="img">
+        <!-- <div class="text">Caption</div> -->
+    </div>
+
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <div class="title">
+        <h1>關於二十聯展</h1>
+        <h2>二十聯展相較於社團中的迎新展和期末展不同之處在於，整個籌備和發起過程，是由想要主辦的人主動開始，而非社團幹部先行規劃。從參加過迎新、期末展之後，經過展覽活動的洗禮，希望可以再進一步舉辦展覽，有別於校內展覽，藝術家們在二十聯展投入的心力都更多，作品也相對更完整。最初開始這樣的展覽的一群人，剛好都二十歲，因此命名為二十聯展。</h2>
+    </div>
+    
+    
+    <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 3000); // Change image every 2 seconds
+    }
+    </script>
+
+    <!-- <script src="app.js"></script> -->
+</body>
+</html>

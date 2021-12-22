@@ -9,6 +9,8 @@
 @import url("Artist_css/content.css");
 @import url("Artist_css/Artist.css");
 
+@import url("About_expo20_css/slideshow.css");
+
 :root {
   /* --darkgray: #212329; */
   --darkgray: #060201;
