@@ -19,7 +19,7 @@
 
 .Traffic-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   align-items: center;
   justify-self: center;
   width: 80%;
@@ -44,8 +44,13 @@
   margin-top: 2rem;
   margin-bottom: 5rem;
 }
+.Traffic-content h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
 
 .Traffic-content p {
+  margin-left: 1rem;
   margin-top: 1rem;
   font-size: 1rem;
 }
