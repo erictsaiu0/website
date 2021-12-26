@@ -107,6 +107,7 @@
   height: 100%;
   display: block;
   position: absolute;
+  opacity: 80%;
   /* clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); */
   /* clip-path: circle(45%); */
   z-index: -1;
