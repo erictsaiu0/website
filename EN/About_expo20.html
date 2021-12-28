@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../style.css">
+    <title>《Undulation》| The vicenarian exhibition</title>
+</head>
+<body>
+    <div class="nav-container">
+        <nav class="navbar">
+          <a href="Home.html"><img src="../logo/logo.png" id="navbar-logo"></h1></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="Individual_artist.html" class="nav-links">Personal project</a></li>
+                <li><a href="Co-creation.html" class="nav-links">Collaborative project</a></li>
+                <li><a href="About_expo20.html" class="nav-links">The vicenarian exhibition</a></li>
+                <li><a href="..\EN\Home.html" class="nav-links">中文/EN</a></li>
+                <li><a href="Home.html" class="nav-links">Home</a></li>
+                <!-- <li><a href="#" class="nav-links nav-links-btn">首頁</a></li> -->
+            </ul>
+        </nav>
+    </div>
+
+    
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="../about_expo20_img/top.jpg" class="img">
+      <!-- <div class="text">Caption</div> -->
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="../about_expo20_img/About02.JPG" class="img">
+      <!-- <div class="text">Caption</div> -->
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="../about_expo20_img/About03.JPG" class="img">
+      <!-- <div class="text">Caption</div> -->
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../about_expo20_img/About04.JPG" class="img">
+        <!-- <div class="text">Caption</div> -->
+      </div>
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../about_expo20_img/About05.JPG" class="img">
+        <!-- <div class="text">Caption</div> -->
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../about_expo20_img/About06.JPG" class="img">
+        <!-- <div class="text">Caption</div> -->
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../about_expo20_img/About07.JPG" class="img">
+        <!-- <div class="text">Caption</div> -->
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../about_expo20_img/About08.JPG" class="img">
+        <!-- <div class="text">Caption</div> -->
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../about_expo20_img/About09.JPG" class="img">
+        <!-- <div class="text">Caption</div> -->
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../about_expo20_img/About10.JPG" class="img">
+        <!-- <div class="text">Caption</div> -->
+    </div>
+
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <div class="title">
+        <h1>Regarding our vicenarian exhibition</h1>
+        <h2>Compared to the beginning of term and end of term exhibitions, the vicenarian exhibition is different in how it was organised.  It is launched by those who would like to participate instead of the club’s cadres.  They hope to take their craft to the next level by leveraging their wealth of experiences from countless exhibitions.  The works presented in the vicenarian exhibition are usually more substantial along with considerably more investments by the participants.  Initially, the first group of students who held our first vicenarian exhibition happened to all be over twenty years old.  That coincidence is what gave the exhibition its name.. 
+        </h2>
+    </div>
+    
+    
+    <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 3000); // Change image every 2 seconds
+    }
+    </script>
+
+    
+    <div class="history">
+      <div class="history-content">
+        <h1>近年展覽歷史</h1>
+        <table>
+          <tr>
+            <td width=100px>2019</td>
+            <td width=150px>第二十七屆</td>
+            <td>《隔水加熱》</td>
+          </tr>
+          <tr>
+            <td>2013</td>
+            <td>第二十六屆</td>
+            <td>《小傳記》</td>
+          </tr>
+          <tr>
+            <td>2011</td>
+            <td>第二十五屆</td>
+            <td>《渾沌》</td>
+          </tr>
+          <tr>
+            <td>2010</td>
+            <td>第二十四屆</td>
+            <td>《往，來》</td>
+          </tr>
+          <tr>
+            <td>2009</td>
+            <td>第二十三屆</td>
+            <td>《ME，PHOTON》</td>
+          </tr>
+          <tr>
+            <td>2007</td>
+            <td>第二十二屆</td>
+            <td>《休止符》</td>
+          </tr>
+          <tr>
+            <td>2006</td>
+            <td>第二十一屆</td>
+            <td>《嚮，二十的聲音》</td>
+          </tr>
+          <tr>
+            <td>2005</td>
+            <td>第二十屆</td>
+            <td>《二十歲的攝影展》</td>
+          </tr>
+        </table>
+          <!-- <li>2019 第二十七屆 | 《隔水加熱》</li>
+          <li>2013 第二十六屆 | 《小傳記》</li>
+          <li>2011 第二十五屆 | 《渾沌》</li>
+          <li>2010 第二十四屆 | 《往，來》</li>
+          <li>2009 第二十三屆 | 《ME，PHOTON》</li>
+          <li>2007 第二十二屆 | 《休止符》</li>
+          <li>2006 第二十一屆 | 《嚮，二十的聲音》</li>
+          <li>2005 第二十屆 | 《二十歲的攝影展》</li> -->
+      </div>
+    </div>
+</body>
+</html>

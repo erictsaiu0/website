@@ -1,0 +1,46 @@
+:root {
+  --darkgray: #212329;
+  --brightred: #ff053a;
+  --white: #fff;
+  --lightred: #f9433dcc;
+  --lightblue: #337af1;
+}
+
+.history {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  background-color: var(--darkgray);
+}
+
+.history-content {
+  display: block;
+  margin: auto;
+  max-width: 60%;
+  color: var(--white);
+  width: 80%;
+}
+
+.history-content h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.history-content h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.history-content h3 {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.history-content table {
+  margin: auto;
+  color: var(--white);
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+}

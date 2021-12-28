@@ -105,6 +105,8 @@
   font-size: 1rem;
   color: var(--white);
   text-shadow: var(--darkgray) 0.1em 0.1em 0.3em;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 /* mobile responses */
