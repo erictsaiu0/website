@@ -7,6 +7,7 @@
 }
 
 .Artist {
+  margin-top: 1rem;
   background-color: var(--darkgray);
 }
 
@@ -29,6 +30,7 @@
 }
 
 .Artist-content h1 {
+  margin-top: 1rem;
   font-size: 3rem;
 }
 
@@ -93,7 +95,7 @@
 }
 
 /* mobile responses */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .Artist-container {
     display: grid;
     grid-template-columns: auto;
@@ -144,4 +146,4 @@
     padding: 12px 36px;
     margin-top: 2.5rem;
   }
-}
+} */

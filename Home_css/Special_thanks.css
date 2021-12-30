@@ -100,7 +100,7 @@
 }
 
 /* mobile responses */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .SpeialThx-container {
     display: grid;
     grid-template-columns: auto;
@@ -151,4 +151,4 @@
     padding: 12px 36px;
     margin-top: 2.5rem;
   }
-}
+} */

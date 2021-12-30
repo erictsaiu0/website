@@ -195,7 +195,7 @@
 }
 
 /* responsive */
-@media screen and (min-width: 550px) and (max-width: 825px) {
+/* @media screen and (min-width: 550px) and (max-width: 825px) {
   .Artists-cell:nth-child(3n) {
     margin-right: calc(50% - 125px);
     margin-left: calc(50% - 125px);
@@ -258,4 +258,4 @@
   .Artists-cell {
     margin: 50px 25px;
   }
-}
+} */
