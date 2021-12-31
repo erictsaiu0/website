@@ -128,11 +128,12 @@
 
 @media screen and (max-width: 550px) {
   .main-container {
-    height: 1000px;
+    height: auto;
+    margin-bottom: 20%;
   }
 
   .main-content {
-    text-align: center;
+    text-align: left;
   }
 
   .main-content h1 {

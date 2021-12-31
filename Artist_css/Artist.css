@@ -126,11 +126,20 @@
   #Artist-img {
     display: none;
   }
-}
+} */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
+  .Artist-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .Artist-img-container {
+    display: none;
+  }
+
   .Artist-content {
-    text-align: center;
+    text-align: left;
   }
 
   .Artist-content h1 {
@@ -146,4 +155,4 @@
     padding: 12px 36px;
     margin-top: 2.5rem;
   }
-} */
+}

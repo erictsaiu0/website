@@ -135,13 +135,13 @@
 
 @media screen and (max-width: 550px) {
   .SpeialThx-content {
-    text-align: center;
+    text-align: left;
+    height: auto;
   }
 
   .SpeialThx-container {
     display: grid;
     grid-template-columns: 1fr;
-    height: 500px;
   }
 
   #SpeialThx-img {

@@ -141,11 +141,21 @@
   #map-img {
     display: none;
   }
-}
+} */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
+  .map-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 1000px;
+  }
+
+  .map-img-container {
+    display: none;
+  }
+
   .map-content {
-    text-align: center;
+    text-align: left;
   }
 
   .map-content h1 {
@@ -161,4 +171,4 @@
     padding: 12px 36px;
     margin-top: 2.5rem;
   }
-} */
+}

@@ -256,7 +256,8 @@
 
 @media screen and (max-width: 550px) {
   .Artists-heading {
-    margin-bottom: 0;
+    height: auto;
+    margin-top: 20%;
   }
 
   .Artists-heading h1 {
@@ -265,12 +266,12 @@
 
   .Artists-cell {
     margin: 10px 25px;
-    height: 10px;
+    height: auto;
   }
 
   .Artists-cell-cowork {
     margin: 10px 25px;
-    height: 10px;
+    height: auto;
   }
 
   .Artists-cell_img {
