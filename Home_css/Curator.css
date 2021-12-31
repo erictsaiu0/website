@@ -130,6 +130,16 @@
 }
 
 @media screen and (max-width: 480px) {
+  .Curator-container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-self: center;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    background-color: var(--darkgray);
+  }
   .Curator-content {
     text-align: center;
   }
