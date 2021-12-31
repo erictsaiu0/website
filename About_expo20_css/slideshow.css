@@ -9,9 +9,9 @@
 * {
   box-sizing: border-box;
 }
-body {
+/* body {
   font-family: Verdana, sans-serif;
-}
+} */
 .mySlides {
   display: none;
 }
@@ -47,6 +47,7 @@ img {
   margin: auto;
   color: var(--white);
   position: absolute;
+  /* margin-top: 20%; */
   top: 50%;
   transform: translateY(-50%);
   left: 0;
@@ -127,3 +128,12 @@ img {
     font-size: 11px;
   }
 } */
+@media screen and (max-width: 550px) {
+  .title h1 {
+    font-size: 1.8rem;
+  }
+
+  .title h2 {
+    font-size: 1rem;
+  }
+}

@@ -15,7 +15,7 @@
 .history-content {
   display: block;
   margin: auto;
-  max-width: 60%;
+  max-width: 80%;
   color: var(--white);
   width: 80%;
 }
@@ -43,4 +43,23 @@
   color: var(--white);
   margin-top: 0.5rem;
   font-size: 1.4rem;
+}
+
+@media screen and (max-width: 550px) {
+  .history-content td {
+    font-size: 1rem;
+    width: auto;
+  }
+
+  #year {
+    width: 50px;
+  }
+
+  #number {
+    width: 75px;
+  }
+
+  #name {
+    width: auto;
+  }
 }
