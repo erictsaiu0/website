@@ -135,7 +135,6 @@
 
 @media screen and (max-width: 550px) {
   .SpeialThx-content {
-    text-align: left;
     height: auto;
   }
 
@@ -157,6 +156,7 @@
   }
 
   .SpeialThx-content p {
+    text-align: left;
     margin-top: 1rem;
     font-size: 1.2rem;
   }
