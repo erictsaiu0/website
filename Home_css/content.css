@@ -127,6 +127,10 @@
 }
 
 @media screen and (max-width: 550px) {
+  .main-container {
+    height: 800px;
+  }
+
   .main-content {
     text-align: center;
   }
