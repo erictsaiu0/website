@@ -93,7 +93,7 @@
   left: 0;
   right: 0;
   text-align: center;
-  z-index: 10;
+  z-index: 0;
 }
 
 .cocreation-description h1 {
@@ -177,18 +177,18 @@
     margin-top: 1rem;
   }
 
-  #cocreation-main-theme-img {
-    display: none;
-  }
-
   .cocreation {
     display: block;
     margin-top: 2rem;
-    height: auto;
+    height: 800px;
     position: relative;
     background-color: var(--darkgray);
     align-items: center;
     justify-self: center;
+  }
+
+  #cocreation-main-theme-img {
+    display: none;
   }
 
   .cocreation-description {
