@@ -104,6 +104,20 @@
   text-align: center;
 }
 
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 400px;
+  width: 500px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 400px;
+  width: 500px;
+}
+
 /* mobile responses */
 /* @media screen and (max-width: 768px) {
   .Traffic-container {
@@ -136,14 +150,14 @@
   #Traffic-img {
     display: none;
   }
-}
+} */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
   .Traffic-content {
-    text-align: center;
+    display: none;
   }
 
-  .Traffic-content h1 {
+  /* .Traffic-content h1 {
     font-size: 2.8rem;
   }
 
@@ -155,5 +169,24 @@
   .Traffic-btn {
     padding: 12px 36px;
     margin-top: 2.5rem;
+  } */
+
+  .Traffic-img-container {
+    width: 300px;
+    height: 240px;
   }
-} */
+
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 300px;
+    height: 240px;
+  }
+
+  .mapouter {
+    position: relative;
+    text-align: right;
+    width: 300px;
+    height: 240px;
+  }
+}

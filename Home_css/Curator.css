@@ -17,7 +17,7 @@
   justify-self: center;
   width: 80%;
   margin: 0 auto;
-  height: 80vh;
+  height: 120vh;
   background-color: var(--darkgray);
 }
 
@@ -93,7 +93,7 @@
 }
 
 /* mobile responses */
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .Curator-container {
     display: grid;
     grid-template-columns: auto;
@@ -101,7 +101,7 @@
     justify-self: center;
     width: 90%;
     margin: 0 auto;
-    height: 80vh;
+    height: 150vh;
     background-color: var(--darkgray);
   }
 
@@ -132,16 +132,16 @@
   }
 
   .Curator-content h1 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
 
   .Curator-content p {
     margin-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .Curator-btn {
     padding: 12px 36px;
     margin-top: 2.5rem;
   }
-} */
+}

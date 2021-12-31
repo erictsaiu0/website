@@ -42,7 +42,7 @@
   margin-top: 1rem;
   font-size: 1rem;
 }
-/* 
+
 .main-btn {
   font-size: 1rem;
   background-color: var(--brightred);
@@ -81,7 +81,7 @@
 }
 .main-btn:hover:after {
   width: 100%;
-} */
+}
 
 #main-img {
   height: 80%;
@@ -93,7 +93,7 @@
 }
 
 /* mobile responses */
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .main-container {
     display: grid;
     grid-template-columns: auto;
@@ -126,7 +126,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
   .main-content {
     text-align: center;
   }
@@ -144,4 +144,4 @@
     padding: 12px 36px;
     margin-top: 2.5rem;
   }
-} */
+}

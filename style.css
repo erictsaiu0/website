@@ -285,7 +285,7 @@ body {
   background: var(--white);
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .nav-container {
     position: relative;
   }
@@ -375,7 +375,7 @@ body {
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-} */
+}
 
 .footer-container {
   background-color: var(--darkgray);

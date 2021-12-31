@@ -131,24 +131,34 @@
   #SpeialThx-img {
     display: none;
   }
-}
+} */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
   .SpeialThx-content {
     text-align: center;
   }
 
+  .SpeialThx-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 500px;
+  }
+
+  #SpeialThx-img {
+    display: none;
+  }
+
   .SpeialThx-content h1 {
-    font-size: 2.8rem;
+    font-size: 2rem;
   }
 
   .SpeialThx-content p {
-    margin-top: 2rem;
-    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
   }
 
   .SpeialThx-btn {
     padding: 12px 36px;
     margin-top: 2.5rem;
   }
-} */
+}
