@@ -71,7 +71,8 @@
 
 .cocreation {
   display: grid;
-  height: 70vh;
+  margin-top: 2rem;
+  height: auto;
   position: relative;
   background-color: var(--darkgray);
   align-items: center;
@@ -145,30 +146,73 @@
 
 @media screen and (max-width: 550px) {
   .map-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    height: 1000px;
+    display: block;
+    /* grid-template-rows: 1fr 1fr; */
+    height: auto;
   }
 
-  .map-img-container {
+  /* .map-img-container {
     display: none;
-  }
+  } */
 
   .map-content {
     text-align: left;
   }
 
-  .map-content h1 {
-    font-size: 2.8rem;
+  .map-content h1 .map-content h2 {
+    font-size: 1.5rem;
   }
 
   .map-content p {
     margin-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .map-btn {
     padding: 12px 36px;
     margin-top: 2.5rem;
+  }
+
+  .map-img-container {
+    margin-top: 1rem;
+  }
+
+  #cocreation-main-theme-img {
+    display: none;
+  }
+
+  .cocreation {
+    display: block;
+    margin-top: 2rem;
+    height: auto;
+    position: relative;
+    background-color: var(--darkgray);
+    align-items: center;
+    justify-self: center;
+  }
+
+  .cocreation-description {
+    position: absolute;
+    /* top: 50%; */
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+    /* z-index: 10; */
+  }
+
+  .cocreation-description h1 {
+    font-size: 1.5rem;
+    color: var(--white);
+    text-shadow: var(--darkgray) 0.1em 0.1em 0.3em;
+  }
+
+  .cocreation-description h2 {
+    text-align: left;
+    font-size: 1rem;
+    color: var(--white);
+    text-shadow: var(--darkgray) 0.1em 0.1em 0.3em;
+    /* margin-left: 25%;
+    margin-right: 25%; */
   }
 }
