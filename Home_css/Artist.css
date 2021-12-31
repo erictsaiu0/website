@@ -259,6 +259,10 @@
     margin-bottom: 0;
   }
 
+  .Artists-heading h1 {
+    font-size: 2rem;
+  }
+
   .Artists-cell {
     margin: 10px 25px;
     height: 10px;
